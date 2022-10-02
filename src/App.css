@@ -36,3 +36,108 @@
     transform: rotate(360deg);
   }
 }
+
+/* //////////////////////////// */
+
+.wrapper_list {
+  background-color:rgba(123, 213, 248, 0.274);
+  border-top:  1px solid rgb(92, 92, 92);
+  border-bottom:  1px solid rgb(92, 92, 92);
+  border-left:  2px solid rgb(92, 92, 92);
+  border-right:  2px solid rgb(92, 92, 92);
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  width: 270px;
+  margin-left:50%;
+  transform: translate(-50%);
+  line-height: 20%;
+}
+
+.fix_option{
+  background-color:rgba(123, 213, 248, 0.274);
+  border-top:  1px solid rgb(92, 92, 92);
+  border-bottom:  1px solid rgb(92, 92, 92);
+  border-left:  2px solid rgb(92, 92, 92);
+  border-right:  2px solid rgb(92, 92, 92);
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  width: 270px;
+  margin-left:50%;
+  transform: translate(-50%);
+  line-height: 20%;
+}
+
+select{
+  background:transparent;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+option{
+  background-color:#333;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  border-color: #74f9ff;
+  cursor: pointer;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid rgb(92, 92, 92);
+  font-size: 14px;
+  width: 286px;
+  margin: 1rem 0 0 0;
+}
+
+.add_button{  
+  width: 90px;
+  height: 30px;
+  line-height: 2px;
+  font-size: 11px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  border: 2px solid #333;
+  letter-spacing: 3px;
+  text-align: center;
+  text-align-last: center;
+  position: relative;
+  transition: all .35s;
+  cursor: pointer;
+  background-color:rgb(255, 182, 233);
+  border-radius: 8px;
+}
+
+.add_button span{
+  position: relative;
+  z-index: 2;
+}
+
+.add_button:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #333;
+  transition: all .35s;
+}
+
+.add_button:hover{
+  color: white;
+  border-radius: 8px;
+}
+
+.add_button:hover:after{
+  width: 100%;
+}
+
+body {
+  background: fixed;
+  background-image: linear-gradient(to right bottom, #7fff9f, #deffa9, #ffc249, #ffa274);
+}
